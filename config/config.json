@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "accordion-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/accordionView/AccordionViewWebPart.js",
+          "manifest": "./src/webparts/accordionView/AccordionViewWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AccordionViewWebPartStrings": "lib/webparts/accordionView/loc/{locale}.js"
+  }
+}

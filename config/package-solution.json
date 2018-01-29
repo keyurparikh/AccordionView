@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "accordion-view-client-side-solution",
+    "id": "c3790bdd-d193-4d77-8f1f-d16f5e3c91e6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/accordion-view.sppkg"
+  }
+}
